@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="max-w-[1366px]">
+    <html lang="en" className="max-w-[1440px]">
       <Navbar />
       <body className={archivo.className}>{children}</body>
       <Footer />

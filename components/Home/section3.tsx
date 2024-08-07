@@ -6,6 +6,7 @@ import three from './assets/3.svg';
 import four from './assets/4.svg';
 import { CgProfile } from "react-icons/cg";
 import { LiaArrowRightSolid } from "react-icons/lia";
+import Image from "next/image";
 const Sec3home = () => {
     const [tab, setTab] = useState(0);
     return (  
@@ -23,28 +24,28 @@ const Sec3home = () => {
 
             <div className="flex flex-row w-full h-[200px] md:h-[300px] lg:h-[500px] gap-x-[10px] mt-[50px]">
                 <div className={`${tab === 0 ? "w-[60%]" : "w-[30%]"}  transition-all duration-500 relative`} onClick={()=> setTab(0)}>
-                    <img src={ one } className={`${tab === 0 ? "" : "filter grayscale"}  object-cover w-full h-full`}/>
+                    <Image src="/homeassets/1.svg" width={522} height={648} alt="logo" className={`${tab === 0 ? "" : "filter grayscale"}  object-cover w-full h-full`}/>
                     <div className={`${tab === 0 ? "text-black" : "text-white text-center"} absolute bottom-[5px] md:bottom-[10px] lg:bottom-[20px] left-[5px] md:left-[10px] lg:left-[20px] transition-all duration-500 leading-[1]`}>
                         <p className="text-[13px] md:text-[18px] lg:text-[20px] font-medium">Merit Mohammed</p>
                         <p className="text-[16px] md:text-[25px] lg:text-[30px] font-semibold">President</p>
                     </div>
                 </div>
                 <div className={`${tab === 1 ? "w-[60%]" : "w-[30%]"}  transition-all duration-500 relative`} onClick={()=> setTab(1)}>
-                    <img src={ two } className={`${tab === 1 ? "" : "filter grayscale"}  object-cover w-full h-full`}/>
+                <Image src="/homeassets/2.svg" width={522} height={648} alt="logo" className={`${tab === 1 ? "" : "filter grayscale"}  object-cover w-full h-full`}/>
                     <div className={`${tab === 1 ? "text-black" : "text-white text-center"} absolute bottom-[5px] md:bottom-[10px] lg:bottom-[20px] left-[5px] md:left-[10px] lg:left-[20px] transition-all duration-500 leading-[1]`}>
                         <p className="text-[13px] md:text-[18px] lg:text-[20px] font-medium">Damilola Adesina</p>
                         <p className="text-[16px] md:text-[25px] lg:text-[30px] font-semibold">Vice President</p>
                     </div>
                 </div>
                 <div className={`${tab === 2 ? "w-[60%]" : "w-[30%]"}  transition-all duration-500 relative`} onClick={()=> setTab(2)}>
-                    <img src={ three } className={`${tab === 2 ? "" : "filter grayscale"}  object-cover w-full h-full`}/>
+                <Image src="/homeassets/3.svg" width={522} height={648} alt="logo" className={`${tab === 2 ? "" : "filter grayscale"}  object-cover w-full h-full`}/>
                     <div className={`${tab === 2 ? "text-black" : "text-white text-center"} absolute bottom-[5px] md:bottom-[10px] lg:bottom-[20px] left-[5px] md:left-[10px] lg:left-[20px] transition-all duration-500 leading-[1]`}>
                         <p className="text-[13px] md:text-[18px] lg:text-[20px] font-medium">Oluwayomi Apata</p>
                         <p className="text-[16px] md:text-[25px] lg:text-[30px] font-semibold">Gen. Secretary</p>
                     </div>
                 </div>
                 <div className={`${tab === 3 ? "w-[60%]" : "w-[30%]"}  transition-all duration-500 relative`} onClick={()=> setTab(3)}>
-                    <img src={ four } className={`${tab === 3 ? "" : "filter grayscale"}  object-cover w-full h-full`}/>
+                <Image src="/homeassets/4.svg" width={522} height={648} alt="logo" className={`${tab === 3 ? "" : "filter grayscale"}  object-cover w-full h-full`}/>
                     <div className={`${tab === 3 ? "text-black" : "text-white text-center"} absolute bottom-[5px] md:bottom-[10px] lg:bottom-[20px] left-[5px] md:left-[10px] lg:left-[20px] transition-all duration-500 leading-[1]`}>
                         <p className="text-[13px] md:text-[18px] lg:text-[20px] font-medium">Ikemefuna Daniel</p>
                         <p className="text-[16px] md:text-[25px] lg:text-[30px] font-semibold">Fin. Secretary</p>
