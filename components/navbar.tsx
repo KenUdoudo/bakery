@@ -13,7 +13,6 @@ const Navbar = () =>{
         <div className="absolute top-[10px] px-[10px] w-full z-20 font-pop">
             <div className='bg-white px-[20px] md:px-[40px] py-[7px] rounded-xl flex flex-row justify-between items-center'>
              <div className='flex flex-row items-center gap-[5px] lg:gap-[10px] cursor-pointer'>
-                {/*<img src={ logo } className='w-[25px] lg:w-[50px] aspect-w-full'/>*/}
                 <Image
                     src="./blacklogo.svg"
                     width={50}

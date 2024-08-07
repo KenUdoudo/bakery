@@ -8,7 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      
+      fontFamily: {
+        pop: ["Archivo", "system-ui" ],
+      },
     },
   },
   plugins: [],
