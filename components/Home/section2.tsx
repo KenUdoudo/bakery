@@ -3,7 +3,7 @@ import greenlogo from './assets/NNL2.png';
 import { FaRegQuestionCircle } from "react-icons/fa";
 const Sec2home = () => {
     return ( 
-        <div className="px-[50px] mt-[70px] font-pop">
+        <div className="px-[50px] mt-[70px]">
             <div className='flex flex-row justify-between gap-[30px] items-center w-full'>
                 <div className='w-full md:w-[50%]'>
                     <div className='flex flex-row items-center gap-[10px]'>

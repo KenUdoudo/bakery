@@ -9,7 +9,7 @@ import { LiaArrowRightSolid } from "react-icons/lia";
 const Sec3home = () => {
     const [tab, setTab] = useState(0);
     return (  
-        <div className="px-[20px] md:px-[50px] mt-[100px] font-pop">
+        <div className="px-[20px] md:px-[50px] mt-[100px]">
             <div className="flex flex-row justify-between items-center w-full">
                 <div className='flex flex-row items-center gap-[10px]'>
                     <div className='w-[35px] md:w-[50px] h-[35px] md:h-[50px] bg-[#d7fec8] rounded-full shadow-xl flex justify-center items-center'><CgProfile className='text-[#1b6535] w-[15px] md:w-[25px] h-[15px] md:h-[25px]'/></div>

@@ -1,3 +1,4 @@
+
 import bg from './assets/mainbg.svg';
 import greenlogo from './assets/NNL2.png';
 import schoollogo from './assets/schoollogo.png';

@@ -2,7 +2,7 @@ import { LiaArrowRightSolid } from "react-icons/lia";
 import { FiCalendar } from "react-icons/fi";
 const Sec4home = () => {
     return (  
-        <div className=" mt-[100px] font-pop">
+        <div className=" mt-[100px]">
             <div className="flex flex-row justify-between items-center w-full px-[20px] md:px-[50px]">
                 <div className='flex flex-row items-center gap-[10px]'>
                     <div className='w-[35px] md:w-[50px] h-[35px] md:h-[50px] bg-[#d7fec8] rounded-full shadow-xl flex justify-center items-center'><FiCalendar className='text-[#1b6535] w-[15px] md:w-[25px] h-[15px] md:h-[25px]'/></div>
