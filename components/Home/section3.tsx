@@ -1,9 +1,5 @@
 'use client'
 import { useState } from "react";
-import one from './assets/1.svg';
-import two from './assets/2.svg';
-import three from './assets/3.svg';
-import four from './assets/4.svg';
 import { CgProfile } from "react-icons/cg";
 import { LiaArrowRightSolid } from "react-icons/lia";
 import Image from "next/image";
