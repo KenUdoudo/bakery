@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Archivo } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
-const poppins = Poppins({ subsets: ["latin"],
+const archivo = Archivo({ subsets: ["latin"],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
  });
 
@@ -20,7 +21,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="max-w-[1366px]">
       <Navbar />
-      <body className={poppins.className}>{children}</body>
+      <body className={archivo.className}>{children}</body>
+      <Footer />
     </html>
   );
 }
