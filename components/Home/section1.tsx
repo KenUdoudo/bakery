@@ -3,7 +3,7 @@ import greenlogo from './assets/NNL2.png';
 import schoollogo from './assets/schoollogo.png';
 const Sec1home = () => {
     return (  
-        <div className='font-pop'>
+        <div>
             <div className='relative'>
             <img src={ bg } className='h-[100vh] w-full object-cover'/>
             
