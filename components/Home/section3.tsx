@@ -1,3 +1,4 @@
+'use client'
 import { useState } from "react";
 import one from './assets/1.svg';
 import two from './assets/2.svg';
