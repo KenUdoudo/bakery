@@ -6,13 +6,13 @@ import Sec5About from "@/components/About/section5";
 
 const About = () => {
     return (
-        <main>
+        <>
             <Sec1About />
             <Sec2About />
             <Sec3About />
             <Sec4About />
             <Sec5About />
-        </main>
+        </>
     );
 }
  
