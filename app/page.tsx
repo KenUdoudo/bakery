@@ -7,14 +7,14 @@ import Sec6home from "@/components/Home/section6";
 
 const Home = () => {
   return (
-    <main>
+    <>
       <Sec1home />
       <Sec2home />
       <Sec3home />
       <Sec4home />
       <Sec5home />
       <Sec6home />
-    </main>
+    </>
   );
 }
  

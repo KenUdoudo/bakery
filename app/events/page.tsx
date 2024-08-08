@@ -3,10 +3,10 @@ import Sec2Event from "@/components/Events/section2";
 
 const Events = () => {
     return (
-        <main>
+        <>
             <Sec1Event />
             <Sec2Event />
-        </main>
+        </>
     );
 }
  

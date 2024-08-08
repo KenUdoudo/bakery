@@ -10,7 +10,8 @@ const Navbar = () =>{
         setIsOpen(!isOpen);
     };
     return (
-        <main className="absolute top-[10px] px-[10px] w-full z-20 font-pop">
+        <>
+        <div className="absolute top-[10px] px-[10px] w-full z-20 font-pop">
             <div className='bg-white px-[20px] md:px-[40px] py-[7px] rounded-xl flex flex-row justify-between items-center'>
              <div className='flex flex-row items-center gap-[5px] lg:gap-[10px] cursor-pointer'>
                 <Image
@@ -55,7 +56,8 @@ const Navbar = () =>{
 
              <p className='hidden md:block bg-[#1b6535] text-white py-[10px] px-[20px] cursor-pointer hover:bg-[#30854e] rounded-lg transition-all duration-500'>Contact Us</p>
            </div>
-        </main>
+        </div>
+        </>
     )
 }
 
