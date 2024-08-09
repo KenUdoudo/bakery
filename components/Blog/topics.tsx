@@ -9,6 +9,12 @@ const Topics = () => {
                 <p className="p-[10px] border-[1px] border-[#000] rounded-[50px] font-[700] text-[14px] tracking-[-0.42px] cursor-pointer">UI/UX Design</p>
                 <p className="p-[10px] border-[1px] border-[#000] rounded-[50px] font-[700] text-[14px] tracking-[-0.42px] cursor-pointer">Academics</p>
             </div>
+
+            <div className="flex justify-between items-start">
+                <div className="flex flex-col items-start self-stretch gap-[15px]">
+
+                </div>
+            </div>
         </div>
     );
 }
