@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Archivo } from "next/font/google";
+import { Work_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 
-const archivo = Archivo({ subsets: ["latin"],
+const work = Work_Sans({ subsets: ["latin"],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
  });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en" className="max-w-[1440px]">
       <body>
         <Navbar />
-        <div className={archivo.className}>{children}</div>
+        <div className={work.className}>{children}</div>
         <Footer />
       </body>
     </html>
