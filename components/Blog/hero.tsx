@@ -6,7 +6,7 @@ const Hero = () => {
                 <span className="h-[2px] w-[2px] bg-[#F00]"></span>
                 <p className="text-[14px] font-normal">Resources</p>
                 <span className="h-[2px] w-[2px] bg-[#F00]"></span>
-                <p className="text-[14px] font-normal">Blog</p>
+                <p className="text-[14px] font-[700]">Blog</p>
             </div>
 
             <div className="flex justify-between items-center mt-[30px]">
