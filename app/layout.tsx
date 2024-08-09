@@ -20,9 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="max-w-[1440px]">
-      <Navbar />
-      <body className={archivo.className}>{children}</body>
-      <Footer />
+      <body>
+        <Navbar />
+        <div className={archivo.className}>{children}</div>
+        <Footer />
+      </body>
     </html>
   );
 }
