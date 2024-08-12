@@ -41,7 +41,7 @@ const Topics = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-between items-center self-stretch">
+                <div className="flex flex-col justify-between items-start gap-[16px] self-stretch">
                     <div className="flex gap-[24px] items-center">
                         <Image 
                             src='/blogassets/maximize.png'
