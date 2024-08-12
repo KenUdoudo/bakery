@@ -1,0 +1,24 @@
+{
+    "item": [{
+      "id": 1,
+      "image": "./public/blogassets/sticky.png",
+      "class": "Academics",
+      "title": "How I got a 5.0 GPA in my first semester",
+      "description": "ThThere’s so much more that goes into a good result than reading more than your mates in the night. This is the story of me finding that out and reaping the results"
+    },
+    {
+        "id": 2,
+        "image": "./public/blogassets/phone.png",
+        "class": "UI/UX Design",
+        "title": "Zero to hero: The complete UI/UX handbook",
+        "description": "I compiled this entire handbook for you to see it, and within it holds all the knowledge you need to land your first UX job."
+    },
+    {
+        "id": 3,
+        "image": "./public/blogassets/leaf.png",
+        "class": "Academics",
+        "title": "How to find the perfect SIWES company",
+        "description": "These are the things your seniors don’t tell you about all the IT locations they found. Nobody will cast this thing, oya come and listen now."
+    }
+    ]
+  }
