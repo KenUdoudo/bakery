@@ -16,7 +16,7 @@ const Sec5home = () => {
                 <div className="flex flex-row justify-between items-center px-[10px] md:px-[30px] py-[20px] rounded-xl w-full bg-white cursor-pointer shadow-xl">
                     <div className="flex flex-row items-center gap-x-[10px]">
                         <div className="w-[10px] h-[10px] bg-red-700 rounded-full flex-shrink-0"></div>
-                        <p className="leading-[1] text-[13px] md:text-[16px] md:w-[60%]">We're up and running! Tell your friends to visit <span className="cursor-pointer text-[#1b6535] hover:text-[#30854e]">www.mtu.edu.ng/mtunacos</span> to use our site. You can also follow us on all our socials</p>
+                        <p className="leading-[1] text-[13px] md:text-[16px] md:w-[60%]">We&apos;re up and running! Tell your friends to visit <span className="cursor-pointer text-[#1b6535] hover:text-[#30854e]">www.mtu.edu.ng/mtunacos</span> to use our site. You can also follow us on all our socials</p>
                     </div>
                     <p className="text-[13px] md:text-[20px] leading-[1] text-right">30th January <br /><span className="font-bold">2024</span></p>
                 </div>
@@ -24,7 +24,7 @@ const Sec5home = () => {
                 <div className="flex flex-row justify-between items-center px-[10px] md:px-[30px] py-[20px] rounded-xl w-full bg-white cursor-pointer shadow-xl">
                     <div className="flex flex-row items-center gap-x-[10px]">
                         <div className="w-[10px] h-[10px] bg-red-700 rounded-full flex-shrink-0"></div>
-                        <p className="leading-[1] text-[13px] md:text-[16px] md:w-[60%]">We're up and running! Tell your friends to visit <span className="cursor-pointer text-[#1b6535] hover:text-[#30854e]">www.mtu.edu.ng/mtunacos</span> to use our site. You can also follow us on all our socials</p>
+                        <p className="leading-[1] text-[13px] md:text-[16px] md:w-[60%]">We&apos;re up and running! Tell your friends to visit <span className="cursor-pointer text-[#1b6535] hover:text-[#30854e]">www.mtu.edu.ng/mtunacos</span> to use our site. You can also follow us on all our socials</p>
                     </div>
                     <p className="text-[13px] md:text-[20px] leading-[1] text-right">30th January <br /><span className="font-bold">2024</span></p>
                 </div>
