@@ -1,8 +1,12 @@
-
+import Image from "next/image";
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
 
 async function getBlogs() {
-  const res = await fetch("http://localhost:4000/item");
+  const res = await fetch("http://localhost:4000/item", {
+    next: {
+      revalidate: 30
+    }
+  });
   return res.json();
 }
 
@@ -19,16 +23,18 @@ export default async function Blogs() {
         </div>
       </div>
 
-      <div className="flex flex-wrap items-start justify-between shrink-0">
+      <div className="flex flex-wrap items-start justify-center gap-[24px] mt-[60px] shrink-0">
         {blogs.map((blog) => (
-          <div key={blog.id} className="p-4 border rounded-md mb-4">
-            <img
+          <div key={blog.id} className="flex flex-col items-start gap-[25px] w-[416px]">
+            <Image
               src={blog.image}
               alt={blog.title}
-              className="w-full h-auto mb-2"
+              width={416}
+              height={350}
             />
-            <h2 className="text-xl font-bold">{blog.title}</h2>
-            <p>{blog.description}</p>
+            <p className="p-[10px] border-[1px] border-[#000] rounded-[50px] font-[700] text-[14px] tracking-[-0.42px] cursor-pointer">{blog.class}</p>
+            <h2 className="text-[25px] font-[700] tracking-[-0.75px]">{blog.title}</h2>
+            <p className="font-[300] tracking-[-0.48px]">{blog.description} <span className="underline font-[600] tracking-[-0.48px]">Read More</span></p>
           </div>
         ))}
       </div>
