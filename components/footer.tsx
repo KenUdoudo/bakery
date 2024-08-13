@@ -17,7 +17,7 @@ const Footer = () => {
             The Nigerian Association of Computer Science is a multi-university
             community with a base in virtually every tertiary institution in the
             country. The MTU chapter was officially opened in 2021, and since
-            then, we've been building a free space for all students of computer
+            then, we&apos;ve been building a free space for all students of computer
             science and all related courses to minge.
           </p>
         </div>
